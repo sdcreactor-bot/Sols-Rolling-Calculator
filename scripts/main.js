@@ -2515,6 +2515,9 @@ function resolveAuraStyleClass(aura, biome) {
     if (name.startsWith('Equinox')) classes.push('sigil-effect-equinox');
     if (name.startsWith('Megaphone')) classes.push('sigil-effect-megaphone');
     if (name.startsWith('Nyctophobia')) classes.push('sigil-effect-nyctophobia');
+    if (name.startsWith('Nyctophobia')) classes.push('sigil-effect-nyctophobia');
+    if (name.startsWith('MASTERMIND')) classes.push('sigil-effect-mastermind');
+
 
     const auraData = typeof aura === 'string' ? null : aura;
 
@@ -2725,6 +2728,7 @@ const AURA_BLUEPRINT_SOURCE = Object.freeze([
     { name: "Neferkhaf", chance: 1000, requiresDunePreset: true, ignoreLuck: true, fixedRollThreshold: 1, subtitle: "The Crawler", cutscene: "neferkhaf-cutscene", disableRarityClass: true },
     { name: "Illusionary - 10,000,000", chance: 10000000, nativeBiomes: ["cyberspace"], ignoreLuck: true, fixedRollThreshold: 1, cutscene: "illusionary-cutscene" },
     { name: "Equinox - 2,500,000,000", chance: 2500000000, cutscene: "equinox-cutscene" },
+    { name: "MASTERMIND - 1,500,000,000", chance: 1500000000, cutscene: "mastermind-cutscene" },
     { name: "Luminosity - 1,200,000,000", chance: 1200000000, cutscene: "luminosity-cutscene" },
     { name: "Erebus - 1,200,000,000", chance: 1200000000, nativeBiomes: ["glitch", "bloodRain"], cutscene: "erebus-cutscene" },
     { name: "Pixelation - 1,073,741,824", chance: 1073741824, breakthroughs: nativeBreakthroughs("cyberspace"), nativeBiomes: ["cyberspace"], cutscene: "pixelation-cutscene" },
