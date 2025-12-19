@@ -2720,10 +2720,10 @@ function nativeBreakthroughs(...biomes) {
 }
 
 const AURA_BLUEPRINT_SOURCE = Object.freeze([
-    { name: "Oblivion", chance: 2000, requiresOblivionPreset: true, ignoreLuck: true, fixedRollThreshold: 1, subtitle: "The Truth Seeker", cutscene: "oblivion-cutscene", disableRarityClass: true },
-    { name: "Memory", chance: 200000, requiresOblivionPreset: true, ignoreLuck: true, fixedRollThreshold: 1, subtitle: "The Fallen", cutscene: "memory-cutscene", disableRarityClass: true },
-    { name: "Neferkhaf", chance: 1000, requiresDunePreset: true, ignoreLuck: true, fixedRollThreshold: 1, subtitle: "The Crawler", cutscene: "neferkhaf-cutscene", disableRarityClass: true },
-    { name: "Illusionary - 10,000,000", chance: 10000000, nativeBiomes: ["cyberspace"], ignoreLuck: true, fixedRollThreshold: 1, cutscene: "illusionary-cutscene" },
+    { name: "Oblivion - 100,000,000,000", chance: 100000000000, cutscene: "oblivion-cutscene" },
+    { name: "Memory - 700,000,000", chance: 700000000, cutscene: "memory-cutscene" },
+    { name: "Neferkhaf - 1,450,000,000", chance: 1450000000, cutscene: "neferkhaf-cutscene" },
+    { name: "Illusionary - 10,000,000,000,000", chance: 10000000000000, cutscene: "illusionary-cutscene" },
     { name: "Equinox - 2,500,000,000", chance: 2500000000, cutscene: "equinox-cutscene" },
     { name: "DeltaZord - 300,000,000,000", chance: 300000000000, cutscene: "deltazord-cutscene" },
     { name: "Luminosity - 1,200,000,000", chance: 1200000000, cutscene: "luminosity-cutscene" },
@@ -2769,7 +2769,7 @@ const AURA_BLUEPRINT_SOURCE = Object.freeze([
     { name: "LOTUSFALL - 320,000,000", chance: 320000000 },
     { name: "Maelstrom - 309,999,999", chance: 309999999, breakthroughs: nativeBreakthroughs("windy") },
     { name: "Manta - 300,000,000", chance: 300000000, breakthroughs: nativeBreakthroughs("blazing") },
-    { name: "Overture : History - 300,000,000", chance: 300000000 },
+    { name: "Overture : History - 30,000,000,000", chance: 30000000000 }, cutscene: "overtureHystoryCutscene"
     { name: "Bloodlust - 300,000,000", chance: 300000000, breakthroughs: nativeBreakthroughs("hell") },
     { name: "Exotic : Void - 299,999,999", chance: 299999999 },
     { name: "Graveborn - 290,000,000", chance: 290000000, nativeBiomes: ["glitch", "graveyard"] },
@@ -2777,14 +2777,14 @@ const AURA_BLUEPRINT_SOURCE = Object.freeze([
     { name: "Surfer : Shard Surfer - 225,000,000", chance: 225000000, breakthroughs: nativeBreakthroughs("snowy") },
     { name: "HYPER-VOLT : EVER-STORM - 225,000,000", chance: 225000000 },
     { name: "Lumenpool - 220,000,000", chance: 220000000, breakthroughs: nativeBreakthroughs("rainy") },
-    { name: "Oppression - 220,000,000", chance: 220000000, nativeBiomes: ["glitch"], cutscene: "oppression-cutscene" },
-    { name: "Impeached - 200,000,000", chance: 200000000, breakthroughs: nativeBreakthroughs("corruption") },
+    { name: "Oppression - 3,500,000,000", chance: 3500000000, cutscene: "oppression-cutscene" },
+    { name: "Impeached - 20,000,000,000", chance: 20000000000 },
     { name: "Nightmare Sky - 190,000,000", chance: 190000000, nativeBiomes: ["pumpkinMoon"] },
     { name: "Felled - 180,000,000", chance: 180000000, breakthroughs: nativeBreakthroughs("hell") },
     { name: "Twilight : Withering Grace - 180,000,000", chance: 180000000, breakthroughs: nativeBreakthroughs("night") },
     { name: "Symphony - 175,000,000", chance: 175000000 },
     { name: "Glock : the glock of the sky - 170,000,000", chance: 170000000 },
-    { name: "Overture - 150,000,000", chance: 150000000 },
+    { name: "Overture - 15,000,000,000", chance: 15000000000 }, cutscene: "overtureCutscene"
     { name: "Crimson - 120,000,000", chance: 120000000, nativeBiomes: ["glitch", "bloodRain"] },
     { name: "Abominable - 120,000,000", chance: 120000000, breakthroughs: nativeBreakthroughs("snowy") },
     { name: "Starscourge : Radiant - 100,000,000", chance: 100000000, breakthroughs: nativeBreakthroughs("starfall") },
